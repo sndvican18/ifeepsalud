@@ -1,0 +1,124 @@
+.headerdesarrollo {
+margin-top: -20px;
+height: 350px;
+background-color: rgba(0, 0, 0, 0.2);
+}
+.headerdesarrollo h2 {
+  padding-top:250px;
+  color: #fff;
+  text-align: center;
+}
+.contenedordesarrollo h3{
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color:#1f2857;
+  font-size: 2em;
+}
+.contenedordesarrollo p{
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20px;
+  font-size: 1.3em;
+}
+.flechaizq  {
+ background-color: #3FCBD1;
+ margin-bottom: 50px;
+ display: flex;
+ justify-content: center;
+ height: 60px;
+ width: 30%;
+ margin-top: 40px;
+ margin-left: 5%;
+}
+.flechaizq a{
+  margin-left: 15%;
+font-size: 1.4em;
+margin-top: 5px;
+text-decoration: none;
+color: #fff;
+}
+.flechaizq  .fa {
+  position: absolute;
+  margin-left: -18%;
+  margin-top: 5px;
+}
+.flechader {
+  background-color: #3FCBD1;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  width: 30%;
+  margin-left: 30%;
+  margin-top: 40px;
+}
+.flechader a {
+  margin-left: 2%;
+font-size: 1.4em;
+margin-top: 5px;
+text-decoration: none;
+color: #fff;
+}
+.flechader .fa {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 4%;
+}
+@media(min-width:480px){
+  .headerdesarrollo{
+    height: 450px;
+  }
+  .headerdesarrollo h2{
+    width: 35%;
+    text-align: left;
+    margin-left:19%;
+    font-weight: 400;
+    padding-top: 300px;
+  }
+  .contenedordesarrollo {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .contenedordesarrollo h3{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 1.7em;
+  }
+  .contenedordesarrollo p{
+    text-align:left;
+    font-size: 1.2em;
+  }
+  .flechaizq {
+    height: 50px;
+    width: 27%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flechaizq a{
+    margin-left: 10%;
+  }
+  .flechaizq .fa{
+    margin-top: -8px;
+    margin-left: -8%;
+  }
+  .flechader {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 27%;
+    margin-left: 35%;
+  }
+  .flechader a{
+    margin-left: -10%;
+  }
+  .flechader .fa {
+    margin-top: -8px;
+    margin-left: 4%;
+  }
+}

@@ -1,0 +1,95 @@
+.headercontacto {
+  height: 350px;
+  background-color:#3FCBD1 ;
+}
+.headercontacto h2{
+  font-size:2em;
+  color: #fff;
+  text-align: center;
+  padding-top: 200px;
+}
+.cmap h3{
+  color: #1e3b7c;
+  font-size: 1.9em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.cmap img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.ctexto {
+  margin-top: 30px;
+}
+.ctexto input{
+ border-top: 0;
+ border-left: 0;
+ border-right: 0;
+ margin-top: 10px;
+}
+.ctexto textarea{
+  width: 100%;
+  margin-top: 20px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.bcontacto {
+  width: 30%;
+ margin-left: 35%;
+ margin-top: 30px;
+ margin-bottom: 30px;
+ text-align: center;
+ background-color: #3FCBD1;
+}
+.bcontacto a {
+ text-decoration: none;
+ font-size: 1.3em;
+ color: #fff;
+ font-weight:400;
+}
+@media(min-width:480px){
+   .headercontacto {
+     height: 400px;
+   }
+   .headercontacto h2 {
+     font-size: 2.5em;
+     font-weight: 400;
+   }
+   .contenedorcontacto {
+     width: 70%;
+     margin-left: 15%;
+   }
+   .cmap h3 {
+     text-align: left;
+     font-size: 2em;
+     margin-bottom: 100px;
+   }
+   .cmap img{
+     height: 300px;
+   }
+   .ctexto {
+     margin-top: 50px;
+   }
+   .ctexto input {
+     margin-top: 30px;
+   }
+   .ctexto textarea {
+     margin-top: 50px;
+     height: 190px;
+   }
+   .bcontacto {
+     float: right;
+     height: 40px;
+     width: 20%;
+     display: flex;
+     justify-content: center;
+     align-items:center;
+     margin-top: 50px;
+   }
+   .bcontacto a{
+     font-size: 1.5em;
+   }
+}

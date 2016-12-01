@@ -1,0 +1,146 @@
+.headerhome {
+  height: 350px;
+  background-color: #3FCBD1;
+}
+.headerhome h2 {
+ padding-top: 100px;
+ text-align: center;
+ color: #fff;
+}
+.bhome{
+  border-radius: 15px 15px;
+  height: auto;
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+  margin-top: 80px;
+  background-color: #FF615E;
+}
+.bhome a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4em;
+}
+.contenedorhome h3 {
+  text-align: center;
+  color: #1f2857;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+.home1izq p {
+ font-size: 1.5em;
+ text-align: center;
+}
+.home1der .videohome{
+  width: 90%;
+  height: 300px;
+  background-color: #000;
+  margin-left: 5%;
+}
+.home2izq .cuadro {
+  width: 90%;
+  margin-left: 5%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+}
+.home2der .cuadro2 {
+ margin-top: 40px;
+ text-align: center;
+ margin-bottom: 20px;
+}
+.home2der .cuadro2 h4{
+ font-size: 1.7em;
+ margin-bottom: 30px;
+  color: #1f2857;
+}
+.home2der .cuadro2 p{
+font-size: 1.4em;
+margin-bottom: 20px;
+}
+.home2der .cuadro2 img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.home2der .cuadro2 a {
+  text-decoration: none;
+  margin-left: 72%;
+  font-size: 1.6em;
+}
+@media(min-width:480px){
+  .headerhome {
+    height: 500px;
+    margin-top: 21px;
+  }
+  .headerhome h2{
+    margin-right: 16%;
+    font-size: 3em;
+    float: right;
+    width: 43%;
+    text-align: right;
+    font-weight: lighter;
+  }
+  .bhome{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 340px;
+    width: 25%;
+    height: 70px;
+    margin-left:37%;;
+    border-radius: 30px 30px;
+  }
+  .bhome a{
+    font-weight: lighter;
+   width: 75%;
+   font-size: 1.2em;
+  }
+  .contenedorhome {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .contenedorhome h3 {
+    font-size: 2.2em;
+    font-weight: 500;
+  }
+  .home1 {
+    margin-top: 30px;
+  }
+  .home1izq p{
+    text-align: left;
+    margin-left: 10%;
+    font-size: 1.1em;
+    margin-bottom: 40px;
+  }
+  .home1der .videohome{
+   height: 400px;
+   width: 100%;
+  }
+  .home2izq .cuadro {
+    width: 45%;
+    height: 350px;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  .home2der .cuadro2{
+    margin-top: 50px;
+    padding-bottom: 10px;
+  }
+  .home2der .cuadro2 h4{
+   text-align: left;
+   margin-bottom: 20px;
+   font-size: 1.5em;
+  }
+  .home2der .cuadro2 p{
+   text-align: left;
+   font-size: 1.1em;
+  }
+  .home2der .cuadro2 img {
+    margin-bottom: 10px;
+  }
+  .home2der .cuadro2 a {
+   font-size: 1em;
+   margin-left: 80%;
+  }
+}

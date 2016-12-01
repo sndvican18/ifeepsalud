@@ -1,0 +1,95 @@
+.headerpago {
+  height: 350px;
+  background-color: #3FCBD1;
+  margin-top: 20px;
+}
+.pagoletra h2{
+  font-size: 1.8em;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+.tpago {
+ margin-top: 10px;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+.tpago .fa {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 2%;
+}
+.btnpago {
+  margin-top: 20px;
+  margin-left: 5%;
+  width: 90%;
+  border-radius: 2%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  background-color: #3FCBD1;
+  height: 40px;
+}
+.btnpago a {
+  padding-top: 5px;
+  color: #000;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+@media(min-width:480px){
+
+  .pagoletra {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .pagoletra h2 {
+    font-weight: 400;
+    font-size: 2.2em;
+    width: 45%;
+  }
+  .tpago {
+    width: 40%;
+    margin-left: 30%;
+  }
+  .tpago input{
+    height: 40px;
+  }
+  .tpago .fa {
+    margin-left: 1%;
+    margin-top: 14px;
+  }
+  .pago1 {
+    height: 50px;
+    justify-content: center;
+    display: flex;
+  }
+  .pago1 .tpago .fa{
+    margin-left: 4%;
+    margin-top: 13px;
+  }
+  .pago1 .tpago {
+    margin-left: 0;
+    width: 20%;
+  }
+  .pago2 {
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  }
+  .pago2 .tpago .fa{
+    margin-left: 4%;
+    margin-top: 13px;
+  }
+  .pago2 .tpago{
+    margin-left: 0;
+    width: 20%;
+  }
+  .btnpago {
+    width: 38%;
+    margin-left: 31%;
+  }
+}
