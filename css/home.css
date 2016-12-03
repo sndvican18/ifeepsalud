@@ -8,13 +8,20 @@
  color: #fff;
 }
 .bhome{
-  border-radius: 15px 15px;
+  border-radius: 15px;
   height: auto;
   width: 90%;
   margin-left: 5%;
   text-align: center;
   margin-top: 80px;
   background-color: #FF615E;
+  box-shadow: 2px 3px #7a8990;
+}
+.bhome:hover{
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+  box-shadow: none;
 }
 .bhome a {
   text-decoration: none;
@@ -87,14 +94,14 @@ margin-bottom: 20px;
     align-items: center;
     margin-top: 340px;
     width: 25%;
-    height: 70px;
+    height: 60px;
     margin-left:37%;;
-    border-radius: 30px 30px;
+    border-radius: 10px;
   }
   .bhome a{
     font-weight: lighter;
-   width: 75%;
-   font-size: 1.2em;
+   width: 79%;
+   font-size: 1.3em;
   }
   .contenedorhome {
     width: 70%;

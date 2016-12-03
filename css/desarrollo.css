@@ -98,6 +98,12 @@ color: #fff;
     justify-content: center;
     align-items: center;
   }
+  .lista p {
+    margin-left: 7%;
+  }
+  .lista a{
+    text-decoration: none;
+  }
   .flechaizq a{
     margin-left: 10%;
   }

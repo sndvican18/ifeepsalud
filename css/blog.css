@@ -82,6 +82,9 @@ margin-top: 30px;
     margin-top: 40px;
     margin-bottom: 10px;
   }
+  .blogcaja .cajaizq img{
+    height: 300px;
+  }
   .blogcaja .cajaizq h3 {
     font-size: 1.4em;
     font-weight: 500;
@@ -97,6 +100,9 @@ margin-top: 30px;
     margin-left: 3%;
     margin-top: 40px;
     margin-bottom: 10px;
+  }
+  .blogcaja .cajader img{
+    height: 300px;
   }
   .blogcaja .cajader h3 {
     font-size: 1.4em;
